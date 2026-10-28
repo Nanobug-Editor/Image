@@ -110,9 +110,7 @@ impl Display {
         };
         let editor = ui::Node::new(
             "image-native-editor",
-            ui::Kind::NativeEditor {
-                document: source.clone(),
-            },
+            ui::Kind::Editor(ui::Editor::document(source.clone())),
         )
         .grow();
         document.root = match self.mode {

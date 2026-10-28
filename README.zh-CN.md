@@ -1,5 +1,8 @@
 # Image
 
+本地候选 0.6.2 使用统一可配置原生 `Editor` 契约（`ui.code_editor ^2`、`editor.layout ^2`），需要配套开发宿主；保留原内容、Undo/Redo 与插件数据。此未提交候选使用配套宿主构建，原有固定宿主记录仅用于历史版本。
+
+
 [English](https://github.com/Nanobug-Editor/Image/blob/main/README.md) · **简体中文**
 
 原生 SVG 源码预览及 PNG、JPEG、GIF、WebP 图片显示。 插件 ID 为 `svg`，首次独立发布版本为 `0.6.1`；原有安装身份、设置和私有数据保持连续。

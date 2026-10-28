@@ -1,5 +1,8 @@
 # Image
 
+Local candidate 0.6.2 uses the configurable native `Editor` contract (`ui.code_editor ^2`, `editor.layout ^2`). It requires the matching development host; content, Undo/Redo and existing plugin data are retained. Build this uncommitted candidate with that host, rather than the historical host revision below.
+
+
 **English** · [简体中文](https://github.com/Nanobug-Editor/Image/blob/main/README.zh-CN.md)
 
 Native SVG source preview and PNG, JPEG, GIF and WebP image display. The stable installation ID is `svg`; the first independent release is `0.6.1`.
